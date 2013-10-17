@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll-Test</title>
+		<meta name="robots" content="index,follow">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<div class="stages">
+			<ul class="stages">
+				<li class="stage-1 left">
+					<p data-start="top=0" data-target="top=370">
+						start=<span class="value">0</span>
+						target=<span class="value">370</span>
+					</p>
+				</li>
+				<li class="stage-2 left">
+					<p data-start="top=0" data-target="top=370" data-transition="bounce:in:out">
+						start=<span class="value">0</span>
+						target=<span class="value">370</span>
+						transition=<span class="value">bounce:in:out</span>
+					</p>
+				</li>
+				<li class="stage-3 left">
+					<p data-start="top=370" data-target="top=0" data-transition="quart:out">
+						start=<span class="value">370</span>
+						target=<span class="value">0</span>
+						transition=<span class="value">quart:out</span>
+					</p>
+				</li>
+				<li class="stage-4 left">
+					<p data-start="top=370" data-target="top=0">
+						start=<span class="value">370</span>
+						target=<span class="value">0</span>
+					</p>
+				</li>
+			</ul>
+			<ul class="stages">
+				<li class="stage-1 right">
+					<div class="normal" style="top:100px;"></div>
+					<p data-start="top=0" data-normal="top=100" data-target="top=370">
+						start=<span class="value">0</span>
+						normal=<span class="value">100</span>
+						target=<span class="value">370</span>
+					</p>
+				</li>
+				<li class="stage-2 right">
+					<div class="normal" style="top:40px;"></div>
+					<p data-start="top=0&background-color=#a52a2a&color=#ccaaaa" data-normal="top=40&background-color=#999999&color=#000000" data-target="top=370&background-color=#a52a2a&color=#ccaaaa">
+						start=<span class="value">0</span>
+						normal=<span class="value">40</span>
+						target=<span class="value">370</span>
+					</p>
+				</li>
+				<li class="stage-3 right">
+					<div class="normal" style="top:100px;"></div>
+					<p data-start="top=340&background-color=#a52a2a&color=#ccaaaa" data-normal="top=100&background-color=#aabbcc&color=#000000" data-target="top=370&background-color=#a52a2a&color=#ccaaaa" data-transition="bounce:in">
+						start=<span class="value">340</span>
+						normal=<span class="value">100</span>
+						target=<span class="value">370</span>
+						transition=<span class="value">bounce:in</span>
+					</p>
+				</li>
+				<li class="stage-4 right">
+					<div class="normal" style="top:100px;"></div>
+					<p data-start="top=370" data-normal="top=100" data-target="top=0">
+						start=<span class="value">370</span>
+						normal=<span class="value">100</span>
+						target=<span class="value">0</span>
+					</p>
+				</li>
+			</ul>
+		</div>
+
+		<script src="js/mootools-core.js"></script>
+		<script src="js/mootools-more.js"></script>
+		<script src="js/mootools-custom.js"></script>
+		<script src="js/script.js"></script>
+
+	</body>
+</html>

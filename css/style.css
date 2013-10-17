@@ -1,0 +1,54 @@
+body {
+	background: #fff;
+}
+
+div.stages {
+	width: 800px;
+}
+
+div.stages ul.stages {
+	float: left;
+	width: 400px;
+}
+
+div.stages ul.stages li {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #abc;
+	overflow: hidden;
+}
+
+div.stages ul.stages li:nth-child(odd) {
+	background: #999;
+}
+
+div.stages ul.stages li .normal {
+	position: absolute;
+	width: 400px;
+	height: 30px;
+	background: #999;
+
+	box-shadow: 0 0 4px #000;
+}
+
+div.stages ul.stages li:nth-child(odd) .normal {
+	background: #abc;
+}
+
+div.stages ul.stages li p {
+	background: brown;
+	height: 20px;
+	padding-top: 2px;
+	border: 4px dotted #000;
+	color: #caa;
+	font-family: verdana, sans-serif;
+	text-align: center;
+	font-size: 13px;
+	font-style: italic;
+}
+
+div.stages ul.stages li p span.value {
+	color: #fff;
+	font-style: normal;
+}
